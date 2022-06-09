@@ -1,4 +1,4 @@
-package Jogo;
+package Jogo.model;
 
 public enum Jogadas {
 

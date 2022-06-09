@@ -1,16 +1,16 @@
-package Jogo;
+package Jogo.model;
 
 public class Jogador {
 	
-	String nome;
-	String cpf;
+	public String nome;
+	public String cpf;
 	
-	Jogador(String nome, String cpf) {
+	public Jogador(String nome, String cpf) {
 		this.nome = nome;
 		this.cpf = cpf;
 	}
 	
-	String jogar(Jogadas jogada) {
+	public String jogar(Jogadas jogada) {
 		if(jogada == jogada.PAPEL) {
 			return "PAPEL";
 		} else if(jogada == jogada.PEDRA ) {
