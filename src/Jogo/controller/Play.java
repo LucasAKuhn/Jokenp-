@@ -57,23 +57,23 @@ public class Play {
 
 		String play1 = null;
 		String play2 = null;
-
+//
 		switch (entrada.nextInt()) {
-		case 1:
-			play1 = j1.jogar(Jogadas.PEDRA);
-			break;
-		case 2:
-			play1 = j1.jogar(Jogadas.PAPEL);
-			break;
-		case 3:
-			play1 = j1.jogar(Jogadas.TESOURA);
-			break;
-		default:
-			try {
-				geraErro1();
-			} catch (ErroDigitacao e) {
-				System.out.println(e.getMessage());
-			}
+//		case 1:
+//			play1 = j1.jogar(Jogadas.PEDRA);
+//			break;
+//		case 2:
+//			play1 = j1.jogar(Jogadas.PAPEL);
+//			break;
+//		case 3:
+//			play1 = j1.jogar(Jogadas.TESOURA);
+//			break;
+//		default:
+//			try {
+//				geraErro1();
+//			} catch (ErroDigitacao e) {
+//				System.out.println(e.getMessage());
+//			}
 		}
 
 		System.out.println("Jogador 2:");
