@@ -2,6 +2,7 @@ package Jogo.controller;
 
 import java.util.InputMismatchException;
 
+//Com SpringBoot, isto é desnecessario
 public class ValidarCPF {
 
 	public static boolean isCPF(String CPF) {
