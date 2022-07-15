@@ -19,7 +19,7 @@ public class Play {
 
 		Jogador j1 = new Jogador(name1, CPF1);
 
-		// System.out.println(j1.nome);
+
 		if (ValidarCPF.isCPF(CPF1) == true)
 			System.out.printf("%s\n", "Player1: " + j1.nome, ValidarCPF.imprimeCPF(CPF1));
 		else
